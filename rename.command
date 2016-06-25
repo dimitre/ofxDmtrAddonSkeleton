@@ -1,3 +1,4 @@
+cd `dirname $0`
 PROJECT="ofxSyntype"
 replace 'ofxDmtrAddonSkeleton' '${PROJECT}' -- *.*
 replace 'ofxDmtrAddonSkeleton' '${PROJECT}' -- src/*
